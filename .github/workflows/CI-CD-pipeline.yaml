@@ -48,4 +48,12 @@ jobs:
             ${{ secrets.DOCKERHUB_USERNAME }}/dog-shelter:latest
             ${{ secrets.DOCKERHUB_USERNAME }}/dog-shelter:${{github.sha}}
 
-
+  deploy:
+    name: 3 - Deploy to Render
+    needs: build-push-image
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Render deploy
+        run: curl -fsS "${{ secrets.RENDER_DEPLOY_HOOK_URL }}"
+            
+            
