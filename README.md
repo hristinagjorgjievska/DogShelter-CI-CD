@@ -1,6 +1,6 @@
-# Dog Shelter
+# Dog Shelter – CI/CD Pipeline
 
-A Spring Boot web app for managing shelters, dogs, adopters and adoption requests. It was built to demonstrate a CI/CD pipeline: automated build and tests, a Docker image, and deployment.
+A CI/CD project that automates the build, tests, Docker containerization and deployment of a Spring Boot web app for managing dog shelters and adoptions.
 
 ## Tech stack
 
