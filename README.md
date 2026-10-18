@@ -3,7 +3,16 @@
 A Spring Boot web app for managing shelters, dogs, adopters and adoption requests. It was built to demonstrate a CI/CD pipeline: automated build and tests, a Docker image, and deployment.
 
 ## Tech stack
-Java 21 · Spring Boot 3.5 (Web, Thymeleaf, Data JPA, Validation, Actuator) · PostgreSQL 16 / H2 · Docker · Kubernetes · GitHub Actions · Render
+
+| Category | Technology |
+|---|---|
+| Language | Java 21 |
+| Framework | Spring Boot 3.5 (Web, Thymeleaf, Data JPA, Validation, Actuator) |
+| Database | PostgreSQL 16 / H2 |
+| Containerization | Docker, Docker Compose |
+| Orchestration | Kubernetes |
+| CI/CD | GitHub Actions |
+| Deployment | Render |
 
 ## Run locally
 
